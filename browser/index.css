@@ -1,0 +1,31 @@
+table,td,tr,.action { 
+	padding:0; margin:0;
+}
+#main {
+	height:100vh;
+	width:114.285714vh;
+	float:left;
+}
+.action {
+	border-radius: 50%;
+}
+#global, .action {
+	height:100%;
+	width:100%;
+}
+#status,#difficulty {
+	float:auto;
+}
+[player="-1"] {
+	background: gray;
+}
+[player="0"] {
+	background: radial-gradient(circle  at 75% 75%, white, blue);
+}
+[player="1"] {
+	background: radial-gradient(circle at 75% 75%, white, red);
+}
+[disabled] {
+	opacity:0.5;
+}
+button {font-size: 32px;}
